@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    background-color: #1293d4;
+}
+
+.cabecera {
+    background-color: rgba(36, 40, 43, 255);
+    height: 80px;
+}
+
+.titulo span:nth-child(1) {
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 5px;
+    margin-left: 140px;
+}
+
+.titulo span:nth-child(3) {
+    color: #1293d0;
+    display: flex;
+    margin-top: 5px;
+    margin-right: auto;
+}
+
+nav ul li {
+    display: flex;
+    margin: 30px 10px 0px 30px;
+}
+
+nav h1 {
+    display: flex;
+    float: left;
+    color: aliceblue;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin-inline: 190px;
+}
+
+a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.e {
+    background: url("../images/Captura\ de\ pantalla\ 2023-06-11\ 164014.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 400px;
+    margin-top: 4px;
+}
+
+.texto {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+}
+
+.texto p {
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: auto;
+    width: 80%;
+    /* Ajuste: Ancho del contenedor de texto */
+    padding-left: 250px;
+}
+
+.segundo-div {
+    background-color: rgba(36, 40, 43, 255);
+    height: 80px;
+}
+
+.contenedor-izquierda {
+    display: flex;
+    width: 300px;
+    padding: 1px;
+    display: flex;
+    float: right;
+    margin-inline: 215px;
+}
+
+.contenedor-izquierda input {
+    height: 30px;
+    width: 200px;
+    margin-left: 4px;
+}
+
+.enviar {
+    background-color: rgba(232, 73, 29, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.parrafo {
+    display: flex;
+    position: relative;
+    top: 26px;
+    margin-left: 140px;
+    font-size: 20px;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    background-color: #ffffff;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 100px 100px 60px;
+}
+
+.logo img {
+    display: flex;
+    width: 100px;
+    margin-inline: 0px;
+    width: 100px;
+}
+
+.logo h3 {
+    display: flex;
+    margin-top: 5px;
+}
+
+.logo p {
+    margin-top: 15px;
+    width: 300px;
+}
+
+.logo img {
+    display: flex;
+    margin-top: 20px;
+}
+
+.final {
+    height: 50px;
+}
+
+.final p {
+    text-align: center;
+    margin: 30px;
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    background-color: #1293d4;
+}
+
+.cabecera {
+    background-color: rgba(36, 40, 43, 255);
+    height: 80px;
+}
+
+.titulo span:nth-child(1) {
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 5px;
+    margin-left: 140px;
+}
+
+.titulo span:nth-child(3) {
+    color: #1293d0;
+    display: flex;
+    margin-top: 5px;
+    margin-right: auto;
+}
+
+nav ul li {
+    display: flex;
+    margin: 30px 10px 0px 30px;
+}
+
+nav h1 {
+    display: flex;
+    float: left;
+    color: aliceblue;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin-inline: 190px;
+}
+
+a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.segundo-div {
+    background-color: rgba(36, 40, 43, 255);
+    height: 80px;
+    margin-top: 4px;
+}
+
+.contenedor-izquierda {
+    display: flex;
+    width: 300px;
+    padding: 1px;
+    display: flex;
+    float: right;
+    margin-inline: 215px;
+}
+
+.contenedor-izquierda input {
+    height: 30px;
+    width: 200px;
+    margin-left: 4px;
+}
+
+.enviar {
+    background-color: rgba(232, 73, 29, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.parrafo {
+    display: flex;
+    position: relative;
+    top: 26px;
+    margin-left: 140px;
+    font-size: 20px;
+    color: white;
+}
+
+.cuerpo {
+    display: flex;
+    background-color: aliceblue;
+}
+
+.nosotros {
+    position: relative;
+    margin: 10px 90px 20px 110px;
+}
+
+.left {
+    position: relative;
+    background-color: rgba(36, 40, 43, 255);
+    color: beige;
+    width: 1700px;
+    margin: 110px;
+    margin-top: 10px;
+    height: 250px;
+}
+
+.left p {
+    margin-left: 20px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.negro {
+    background-color: rgb(226, 225, 224);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: -8px;
+}
+
+.final {
+    height: 50px;
+}
+
+.final p {
+    text-align: center;
+    margin: 30px;
+}
